@@ -1,0 +1,32 @@
+
+node customer.js
+
+http://localhost:8081/getCustomers     (GET)
+
+http://localhost:8081/addCustomer      (POST)
+{
+  "name" : "Rohan",
+  "age" : "10",
+  "sal" : "10000",
+  "address" : "India",
+  "qualification" : "BTECH",
+  "is_married" : "N",
+  "gender" : "M"
+}
+
+http://localhost:8081/updateCustomer   (PUT)
+{
+  "customer_id" : 22,
+  "name" : "Harish",
+  "age" : "30",
+  "sal" : "30000",
+  "address" : "Australia",
+  "qualification" : "MTECH",
+  "is_married" : "N",
+  "gender" : "M"
+}
+
+http://localhost:8081/deleteCustomer   (DELETE)
+{
+   "customer_id": 21
+}
